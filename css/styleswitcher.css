@@ -1,0 +1,116 @@
+
+
+.style-switcher{
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #c2c2c9;
+    border-right: none;
+    border-radius: 0 0  0 8px ;
+   -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+}
+.style-switcher.open{
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+.style-switcher h4{
+    font-size: 16px;
+    color: #302e4d;
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-bottom: 1px solid #c2c2c9;
+    padding-bottom: 5px;
+}
+.style-switcher ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.style-switcher ul li{
+    display: inline-block;
+}
+.style-switcher ul li a{
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+   display: block;
+}
+.toggle-style-switcher{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    left: -40px;
+    top: 0;
+    border-right: none;
+    border: 1px solid #c2c2c9;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px 0 0 6px;
+}
+.toggle-style-switcher .fa{
+    font-size: 20px;
+    line-height: 40px;
+}
+/*-----------------------dark style----------------------*/
+
+body.dark .section{
+    background-color: #151515;
+ 
+ }
+ body.dark .contact .contact-form .form-item .form-control,
+ body.dark .blog .blog-item .blog-item-inner .blog-info,
+ body.dark .service .service-item .service-item-inner,
+ body.dark .about .about-content .timeline,
+ body.dark .aside{
+     background-color: #222;
+ }
+ body.dark .contact .contact-form .form-item .form-control,
+ body.dark .contact .contact-info-item h4,
+ body.dark .blog .blog-item .blog-item-inner .blog-info .blog-title,
+ body.dark .portfolio .portfolio-filter button,
+ body.dark .service .service-item .service-item-inner h4,
+ body.dark .about .about-content .timeline .timeline-title,
+ body.dark .about .about-content .skills .skill-item h5,
+ body.dark .about .about-content .personal-info .info-item p,
+ body.dark .about .about-content h3.title,
+ body.dark .about .about-content .personal-info .info-item,
+ body.dark .about .about-content .about-text h3,
+ body.dark .section-title h2,
+ body.dark .home .intro h1,
+ body.dark .aside .logo a,
+ body.dark .aside .nav li a{
+     color: #fff;
+ }
+ body.dark .aside .copyright-text,
+ body.dark .contact .contact-info-item p,
+ body.dark .blog .blog-item .blog-item-inner .blog-info .blog-tags,
+ body.dark .service .service-item .service-item-inner p,
+ body.dark .blog .blog-item .blog-item-inner .blog-info .blog-description,
+ body.dark .about .about-content .timeline .timeline-text,
+ body.dark .about .about-content .skills .skill-item .progress .skill-percent,
+ body.dark .about .about-content .personal-info .info-item p span,
+ body.dark .about .about-content .about-text p,
+ body.dark .home .intro p{
+     color: #b9b1b1;
+ }
+ body.dark .contact .contact-form .form-item .form-control,
+ body.dark .blog .blog-item-inner,
+ body.dark .portfolio .portfolio-item .portfolio-item-inner,
+ body.dark .service .service-item .service-item-inner,
+ body.dark .about .about-content .timeline,
+ body.dark .about .about-content .personal-info .info-item p,
+ body.dark .aside .nav li a,
+ body.dark .aside{
+      border-color: #393939;
+ }
+ body.dark .shadow-dark{
+     -webkit-box-shadow: none;
+     box-shadow: none;
+ }

@@ -1,0 +1,7 @@
+border color {#d6cdda}
+
+text color {#302e4d}
+
+background color {#d6cdda}
+
+p color {#504e70}
