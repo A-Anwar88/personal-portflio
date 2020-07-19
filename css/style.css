@@ -835,6 +835,8 @@ body{
 }
 /*--------------------light box end--------------*/
 /*--------------------blog section start--------------*/
+.blog{
+    display:none}
 .blog .container{
     padding-bottom: 40px;
 }
