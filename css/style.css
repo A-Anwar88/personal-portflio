@@ -729,6 +729,7 @@ body{
 
 /*----------------portfolio section end----------------*/
 /*--------------light box----------------*/
+/*
 .lightbox{
     position: fixed;
     left: 0;
@@ -844,6 +845,7 @@ body{
     font-size: 25px;
     line-height: 35px;
 }
+*/
 /*--------------------light box end--------------*/
 /*--------------------blog section start--------------*/
 .blog{
