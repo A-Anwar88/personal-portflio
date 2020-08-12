@@ -702,12 +702,12 @@ body{
 }
 
 .portfolio .portfolio-item-inner .portfolio-info .icon{
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, .8);
     text-align: center;
     border-radius: 50%;
     position: absolute;
-    right: 80px;
-    bottom: 20px;
+    right: 60px;
+    bottom: 30px;
     opacity: 0;
     -webkit-transition: all .8s ease;
     transition: all .8s ease;
