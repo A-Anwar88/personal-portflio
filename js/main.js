@@ -35,7 +35,7 @@ window.addEventListener("load" , function(){
     }
 
 //portfolio lightbox
-
+/*
     const lightbox=document.querySelector(".lightbox"),
           lightboxImg=lightbox.querySelector(".lightbox-img"),
           lightboxColse=lightbox.querySelector(".lightbox-close"),
@@ -84,7 +84,7 @@ lightbox.addEventListener("click",function(event){
         toggleLightbox();
     }
 })
-
+*/
 
 //nav asaid
 
