@@ -706,7 +706,7 @@ body{
     text-align: center;
     border-radius: 50%;
     position: absolute;
-    right: 60px;
+    right: 20px;
     bottom: 30px;
     opacity: 0;
     -webkit-transition: all .8s ease;
