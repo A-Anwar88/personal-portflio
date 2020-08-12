@@ -704,7 +704,7 @@ body{
 .portfolio .portfolio-item-inner .portfolio-info .icon{
     background-color: rgba(0, 0, 0, .8);
     width:100px;
-    height:50px;
+    height:30px;
     text-align: center;
     border-radius: 30%;
     position: absolute;
@@ -713,6 +713,11 @@ body{
     opacity: 0;
     -webkit-transition: all .8s ease;
     transition: all .8s ease;
+}
+.portfolio .portfolio-item-inner .portfolio-info .icon .btn{
+    width:110%;
+    heght:110%;
+    padding:5px;
 }
 .portfolio .portfolio-item-inner:hover .portfolio-info .icon{
     -webkit-transform: translateX(-40px);
