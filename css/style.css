@@ -624,7 +624,6 @@ body{
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
-   height:400px;
 }
 .portfolio .portfolio-item.hide{
     display: none;
@@ -663,10 +662,9 @@ body{
     overflow: hidden;
     cursor: pointer;
     position: relative;
+    height:300px;
 }
-.portfolio .portfolio-item .portfolio-item-inner .portfolio-img{
-    height:400px;
-}
+
 .portfolio .portfolio-item .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
