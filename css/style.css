@@ -127,7 +127,7 @@ body{
    padding: 10px 30px;
    font-weight: 600;
    color: #fff;
-   border-radius: 15px;
+   border-radius: 40px;
    text-decoration: none;
    -webkit-transition: all .5s ease;
    transition: all .3s ease;
@@ -135,6 +135,9 @@ body{
    white-space: nowrap;
    border: none !important;
    cursor: pointer;
+}
+.portfolio-item .btn{
+    border-radius:10px
 }
 .btn:hover{
     -webkit-transform: scale(1.05);
